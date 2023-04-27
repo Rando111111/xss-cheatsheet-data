@@ -41,7 +41,7 @@
         ]
     },
     {
-        "description": "Characters \\x01-\\x20 are allowed before the protocol",
+        "description": "Characters \\x01-\\x20, \\x0a-\\x0f are allowed before the protocol",
         "code": "<a href=\" \tjavascript:alert(1)\">XSS<\/a>",
         "browsers": [
             "chrome",
